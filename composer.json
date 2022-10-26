@@ -1,0 +1,34 @@
+{
+  "name": "cmslz/demo",
+  "type": "library",
+  "description": "cmslz-demo",
+  "keywords": ["demo","php","cmslz"],
+  "homepage": "https://github.com/cmslz/demo",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "cmslz",
+      "email": "heqiangchun0221@foxmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4",
+    "symfony/var-dumper": "^5.4"
+  },
+  "autoload": {
+    "files": [
+      "src/helpers.php"
+    ],
+    "psr-4": {
+      "Cmslz\\Demo\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "files": [
+      "src/helpers.php"
+    ],
+    "psr-4": {
+      "Cmslz\\Demo\\": "src/"
+    }
+  }
+}
